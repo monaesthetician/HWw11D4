@@ -1,0 +1,51 @@
+
+
+  .navlinks{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100vw;
+    font-size: 17px;
+    list-style-type: none;
+    background-color: #346751;
+    text-decoration: none;
+    margin-bottom: 0px;
+  };
+
+  .navlinks a{
+  text-decoration: none;
+  
+  }
+
+  #cincylogo {
+    width: 50px;
+    margin-left: -250px;
+  }
+
+.navlinks a:visited{
+color: #fff;
+}
+
+.navlinks a:hover{
+background-color: rgb(245, 234, 231);
+
+}
+
+.navbar{
+height: 10px;
+
+}
+
+.navlinks li{
+height: 50px;
+width: 50px;
+white-space: nowrap;
+margin-bottom: 5px;
+}    
+
+
+/* a#header.active {
+  color: black;
+ margin-left: 50px;
+ margin-bottom: 10px;
+ } */
